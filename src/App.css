@@ -1,0 +1,13 @@
+
+.headerButtons {
+  margin-left: 900px;
+  background-color: white;
+}
+
+.headerButton{
+  background-color: white;
+  width: 75px;
+  height: 30px;
+  margin-left: 25px;
+  border: 0 ;
+}
