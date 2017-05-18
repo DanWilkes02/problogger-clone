@@ -1,13 +1,38 @@
 
-.headerButtons {
-  margin-left: 900px;
-  background-color: white;
+HeaderBar{
+  top: 0px;
+  position: fixed;
+  color: pink;
 }
 
-.headerButton{
+.headerButtons {
+  margin-left: 875px;
   background-color: white;
-  width: 75px;
-  height: 30px;
-  margin-left: 25px;
-  border: 0 ;
+
+}
+
+
+
+.headerButton:link, .headerButton:visited{
+  background-color: white;
+  color: grey;
+  opacity: 0.6;
+  font-size: 20px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: OpenSansCondensed;
+
+}
+
+.headerButton:hover{
+  color: black;
+
+}
+
+.logo{
+  height: 50px;
+  width: 100px;
+  left: inherit;
 }
